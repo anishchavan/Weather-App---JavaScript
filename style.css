@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body{
+   background-color: rgb(60, 55, 55);
+   height: 100vh; 
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+/* designing the container */
+.container{
+    background: rgba(200, 245, 151, 0.946);
+    width: 600px;
+    border: 2px solid black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    padding: 15px;
+}
+
+/* designing search area */
+.searchData {
+    border: 1px solid black;
+}
+
+.searchData input{
+    border: transparent;
+    background: rgba(147, 188, 104, 0.946);
+    padding: 5px;
+}
+
+.searchData button{
+    border: transparent;
+    background: rgba(110, 175, 40, 0.946);
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+/* designing city weather data */
+.cityWeatherData {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    width: 100%;
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
